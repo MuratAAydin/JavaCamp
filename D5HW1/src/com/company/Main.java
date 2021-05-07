@@ -21,8 +21,8 @@ public class Main {
 
         authManager.register(googleUser);
         userManager.register(user);
-        authManager.logIn(user, "aaa@mail.com", "123456");
-        userManager.logIn(user, "engin@mail.com", "123456");
+        authManager.logIn(user, "asdasd@asdasd.com", "123456");
+        userManager.logIn(user, "engin@dasasd.com", "123456");
         userManager.verifyUser(user);
 
     }
